@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/core.css">
+    <!--    <style>
+            body{
+                background-color: black;
+            }
+        </style>-->
+</head>
+<body>
+<h1>Modifier attribut de la balise</h1>
+
+
+<p>JavaScript modifie la valeur de l'attribut src (source) d'une image.</p>
+
+<button onclick="document.getElementById('myImage').src='lampe_allume.gif'">Allume la lampe</button>
+
+<img id="myImage" src="lampe_eteinte.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='lampe_eteinte.gif'">Eteint la lampe</button>
+
+
+<details>
+    <summary>A retenir</summary>
+    <p>
+     <em>document.getElementById('nomId').src('nouvelleValeur'):</em> permet de modifier la valeur de l'attribut <strong>src</strong> de facon dynamique
+    </p>
+
+</details>
+</body>
+</html>
